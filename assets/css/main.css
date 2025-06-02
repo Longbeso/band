@@ -143,6 +143,7 @@
   margin: 10px 0;
 }
 .section-sub-heading {
+  font-size: 1.2rem;
   color: #666666;
   font-style: italic;
   margin: 15px 0;
@@ -155,7 +156,7 @@
   text-align: justify;
   /* căn đều nội dung full thẻ */
   margin-bottom: 35px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   line-height: 1.6;
 }
 .introduce-member {
@@ -175,4 +176,52 @@
   max-width: 100%;
   object-fit: contain;
   border-radius: 5px;
+}
+
+/* tour */
+.tour {
+  background-color: var(--black-color);
+}
+.tourdates {
+  text-align: center;
+}
+.section-heading--white {
+  color: var(--white-color);
+}
+.tourdates__status-list {
+  position: relative;
+  margin-top: 25px;
+  list-style: none;
+}
+.tourdates__status-item {
+  display: flex;
+  padding: 8px 16px;
+  border: 0.5px solid var(--border-color);
+  background-color: var(--white-color);
+  line-height: 1.6;
+  font-size: 1.6rem;
+}
+.tourdates__status-item-notsold {
+  padding: 0 8px;
+  margin-left: 8px;
+  background-color: #e15241;
+  display: none;
+  color: var(--white-color);
+}
+.tourdates__status-item-sold {
+  display: block;
+}
+.tourdates__status-item-month {
+  color: #757575;
+}
+.tourdates__status-item-quantity {
+  position: absolute;
+  height: 20px;
+  width: 24px;
+  color: var(--white-color);
+  font-size: 1.5rem;
+  border-radius: 50%;
+  background-color: var(--black-color);
+  bottom: 10px;
+  right: 24px;
 }
