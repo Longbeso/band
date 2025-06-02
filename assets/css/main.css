@@ -95,9 +95,10 @@
 
 .slider {
   position: relative;
+  margin-top: 29px;
   padding-top: 50%;
   /* 50% chiều ngang của chính nó */
-  background: url(/assets/img/chicago.jpg) top center / cover no-repeat;
+  background: url(../img/chicago.jpg) top center / cover no-repeat;
   /* 
      background-image: url();
      background-position: top center;
@@ -152,6 +153,7 @@
 }
 .introduce-text {
   text-align: justify;
+  /* căn đều nội dung full thẻ */
   margin-bottom: 35px;
 }
 .introduce-member {
@@ -165,7 +167,8 @@
   margin: 15px 0;
 }
 .introducecv-img {
-  height: 155px;
-  width: 155px;
+  height: auto;
+  max-width: 100%;
   object-fit: contain;
+  padding: 20px;
 }
