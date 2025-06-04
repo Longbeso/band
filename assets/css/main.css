@@ -138,11 +138,14 @@
   padding: 64px 16px;
 }
 .section-heading {
+  text-align: center;
   font-size: 3rem;
   font-weight: 300;
   margin: 10px 0;
 }
 .section-sub-heading {
+  text-align: center;
+
   font-size: 1.2rem;
   color: #666666;
   font-style: italic;
@@ -275,4 +278,75 @@
 .tourdates__event-location-button:hover {
   color: var(--black-color);
   background-color: rgba(102, 102, 102, 0.5);
+}
+
+/* contact */
+
+.contact__container {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+}
+.contact__form {
+  width: 52%;
+}
+.contact-infor {
+  display: flex;
+  flex-direction: column;
+  font-size: 2rem;
+}
+.contact-infor-item {
+  margin: 4px 0;
+}
+.contact-infor-icon {
+  min-width: 30px;
+}
+.contact__form-infor-accout {
+  display: flex;
+  justify-content: space-between;
+}
+.contact__form-infor-name {
+  border: 1px solid var(--border-color);
+  padding-left: 8px;
+  width: 48%;
+  height: 40px;
+}
+.contact__form-infor-email {
+  border: 1px solid var(--border-color);
+  padding-left: 8px;
+  width: 48%;
+  height: 40px;
+}
+.contact__form-infor-mess {
+  margin-top: 8px;
+  width: 100%;
+}
+.contact__form-infor-message {
+  border: 1px solid var(--border-color);
+
+  padding-left: 8px;
+  width: 100%;
+  height: 40px;
+}
+
+.contact__form-btn-link {
+  --line-height: 40px;
+  display: inline-block;
+  width: 70px;
+  height: var(--line-height);
+  background-color: var(--black-color);
+  color: var(--white-color);
+  text-decoration: none;
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: var(--line-height);
+}
+.contact__form-btn {
+  text-align: right;
+  margin-top: 16px;
+}
+.contact__form-btn-link:hover {
+  color: var(--black-color);
+  background-color: #cccccc;
 }
